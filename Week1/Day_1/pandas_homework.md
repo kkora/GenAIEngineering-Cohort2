@@ -18,7 +18,39 @@ The dataset contains information about movies including:
 - Rating (out of 10)
 - Country
 
-## Tasks
+<!-- ## TasksYou must complete these by physically going and taking pictures or collecting items:
+
+✅ Get an autograph from a Starbucks employee on a Starbucks napkin
+
+✅ Take a selfie at Fort Desoto
+
+✅ Take a photo at The Canopy rooftop
+
+✅ Take a photo on the pink streets wearing pink
+
+✅ Find a funny sign on Beach Blvd S, Gulfport
+
+✅ Snap an unusual mailbox in Gulfport
+
+✅ Write down a Tropical Smoothie employee name
+
+✅ Selfie at the boat launch at Clam Bayou
+
+✅ Collect a coaster from Tiki Docs
+
+✅ Picture on St. Pete Pier
+
+✅ Visit Mazzaro’s Italian Market and get a receipt or photo
+
+✅ Selfie on the Downtown Looper
+
+✅ Selfie at the Downtown Market (Sat or Sun)
+
+✅ Photo with a server at Ferg’s
+
+✅ Picture of Red, White & Booze @ Pass-a-Grille
+
+✅ Picture of fireworks -->
 
 ### Task 1: Basic Data Exploration (Beginner)
 
