@@ -124,4 +124,4 @@ async def ping(interaction: nextcord.Interaction):
 
 
 asyncio.run(init_db())
-bot.run(config["token"],)
+bot.run(config["token"], reconnect=True)

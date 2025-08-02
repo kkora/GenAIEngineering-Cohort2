@@ -8,7 +8,7 @@ imageio
 ipywidgets
 matplotlib
 nextcord
-numpy<2
+numpy
 ollama
 pandarallel
 pandas
