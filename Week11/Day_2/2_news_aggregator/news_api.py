@@ -19,7 +19,7 @@ from news_crew import NewsAggregatorCrew, MockNewsAggregatorCrew
 dotenv.load_dotenv()
 
 # Set up environment variables
-os.environ["OPENAI_API_KEY"] = os.getenv("OPEN_ROUTER_KEY", "")
+os.environ["OPEN_ROUTER_KEY"] = os.getenv("OPEN_ROUTER_KEY", "")
 os.environ["OPENAI_API_BASE"] = 'https://openrouter.ai/api/v1'
 os.environ["OPENAI_BASE_URL"] = 'https://openrouter.ai/api/v1'
 

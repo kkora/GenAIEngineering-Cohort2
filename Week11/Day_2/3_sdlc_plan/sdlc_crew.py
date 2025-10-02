@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ["OPENAI_API_KEY"] = os.getenv("OPEN_ROUTER_KEY")
+os.environ["OPEN_ROUTER_KEY"] = os.getenv("OPEN_ROUTER_KEY")
 os.environ["SERPER_API_KEY"] = os.getenv("SERPER_API_KEY")
 os.environ['HUGGINGFACEHUB_API_TOKEN'] = os.getenv('HF_TOKEN')
 os.environ['LITELLM_LOG'] = 'DEBUG'

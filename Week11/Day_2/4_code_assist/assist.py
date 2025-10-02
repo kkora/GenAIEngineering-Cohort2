@@ -29,7 +29,7 @@ FAST_MODEL = "openai/gpt-3.5-turbo"
 ADVANCED_MODEL = "openai/gpt-4"
 ULTRA_FAST_MODE = True  # Bypass CrewAI for simple requests
 
-os.environ["OPENAI_API_KEY"] = os.getenv("OPEN_ROUTER_KEY")
+os.environ["OPEN_ROUTER_KEY"] = os.getenv("OPEN_ROUTER_KEY")
 os.environ["SERPER_API_KEY"] = os.getenv("SERPER_API_KEY")
 os.environ['HUGGINGFACEHUB_API_TOKEN'] = os.getenv('HF_TOKEN')
 os.environ['OPENAI_API_BASE'] = 'https://openrouter.ai/api/v1'

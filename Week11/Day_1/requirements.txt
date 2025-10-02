@@ -1,0 +1,5 @@
+dotenv 
+crewai 
+crewai-tools 
+pypdf2
+requests
