@@ -10,11 +10,6 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPEN_ROUTER_KEY")
 os.environ['OPENAI_API_BASE'] = 'https://openrouter.ai/api/v1'
 os.environ['OPENAI_BASE_URL'] = 'https://openrouter.ai/api/v1'
 
-
-
-
-from crewai.tools import tool
-
 # @tool("Compount Interest Calculator")
 def calculate_compound_interest_func(principal: float, rate: float, time: int, n: int = 12) -> str:
     """
@@ -58,7 +53,7 @@ calculator_crew = Crew(
     agents=[calculator],
     tasks=[calculate_task],
     custom_llm_provider="openrouter",
-    verbose=True,
+    verbose=False,
 
 )
 
