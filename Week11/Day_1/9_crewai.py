@@ -38,7 +38,7 @@ if not os.path.exists(txt_file):
                     page = pdf_reader.pages[page_num]
                     text += page.extract_text() + "\n"
 
-            with open(txt_file, 'w', encoding='utf-8') as txt_file_write:
+            with open(txt_file, 'w', encoding='latin-1', errors="replace") as txt_file_write:
                 txt_file_write.write(text)
 
             print(f"✅ Successfully converted {pdf_file} to {txt_file}")
@@ -56,7 +56,7 @@ else:
     print(f"✅ Text file '{txt_file}' found")
 
 # Initialize File Reading Tool
-file_tool = FileReadTool()
+file_tool = FileReadTool(file_path=txt_file, verbose=True)
 
 # Create research analyst agent
 research_analyst = Agent(
