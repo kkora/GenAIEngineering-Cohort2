@@ -36,7 +36,7 @@ os.environ['OPENAI_BASE_URL'] = 'https://openrouter.ai/api/v1'
 def read_and_analyze_code(file_path: str) -> str:
     """Read a code file and return its content for analysis."""
     try:
-        with open(file_path, 'r') as file:
+        with open(file_path, 'r', encoding="utf-8") as file:
             content = file.read()
         return f"File content of {file_path}:\n{content}"
     except Exception as e:

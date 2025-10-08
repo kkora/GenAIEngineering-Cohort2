@@ -1,0 +1,35 @@
+@startuml
+
+class "6_python_agent" {
+    + load_env() : void
+    + clear_env_vars() : void
+}
+
+class "PythonAgent" {
+    + name: str
+    + model: OpenAIChat
+    + base_dir: Path
+    + files: List[CsvFile]
+    + charting_libraries: list
+    + instructions: list
+    + markdown: bool
+    + pip_install: bool
+    + show_tool_calls: bool
+    + save_and_run: bool
+    + print_response(request: str, stream: bool): void
+}
+
+class "OpenAIChat" {
+    + id: str
+}
+
+class "CsvFile" {
+    + path: str
+    + description: str
+}
+
+"6_python_agent" --> "PythonAgent"
+"PythonAgent" --> "OpenAIChat"
+"PythonAgent" --> "CsvFile"
+
+@enduml

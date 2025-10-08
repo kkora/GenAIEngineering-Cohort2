@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Adventure">
+  <data key="d0">genre</data>
+</node>
+<node id="Family">
+  <data key="d0">genre</data>
+</node>
+<node id="Fantasy">
+  <data key="d0">genre</data>
+</node>
+<node id="Drama">
+  <data key="d0">genre</data>
+</node>
+<node id="Comedy">
+  <data key="d0">genre</data>
+</node>
+<node id="Action">
+  <data key="d0">genre</data>
+</node>
+<node id="Crime">
+  <data key="d0">genre</data>
+</node>
+<node id="Thriller">
+  <data key="d0">genre</data>
+</node>
+<node id="Sci-Fi">
+  <data key="d0">genre</data>
+</node>
+<node id="Animation">
+  <data key="d0">genre</data>
+</node>
+<edge source="Adventure" target="Family">
+  <data key="d1">Alison Sudol</data>
+</edge>
+<edge source="Adventure" target="Fantasy">
+  <data key="d1">Alison Sudol</data>
+</edge>
+<edge source="Adventure" target="Action">
+  <data key="d1">Robert Downey Jr.</data>
+</edge>
+<edge source="Adventure" target="Comedy">
+  <data key="d1">Will Ferrell</data>
+</edge>
+<edge source="Adventure" target="Sci-Fi">
+  <data key="d1">Robert Downey Jr.</data>
+</edge>
+<edge source="Adventure" target="Animation">
+  <data key="d1">Will Ferrell</data>
+</edge>
+<edge source="Family" target="Fantasy">
+  <data key="d1">Alison Sudol</data>
+</edge>
+<edge source="Drama" target="Comedy">
+  <data key="d1">Jennifer Aniston</data>
+</edge>
+<edge source="Comedy" target="Action">
+  <data key="d1">Colin Firth</data>
+</edge>
+<edge source="Comedy" target="Animation">
+  <data key="d1">Will Ferrell</data>
+</edge>
+<edge source="Action" target="Crime">
+  <data key="d1">Keanu Reeves</data>
+</edge>
+<edge source="Action" target="Thriller">
+  <data key="d1">Keanu Reeves</data>
+</edge>
+<edge source="Action" target="Sci-Fi">
+  <data key="d1">Robert Downey Jr.</data>
+</edge>
+<edge source="Crime" target="Thriller">
+  <data key="d1">Keanu Reeves</data>
+</edge>
+</graph></graphml>
